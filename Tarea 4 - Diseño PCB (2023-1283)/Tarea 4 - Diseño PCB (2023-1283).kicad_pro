@@ -651,11 +651,7 @@
     ],
     [
       "87ba63a1-e88f-4bf4-86bd-5ad5e9857d40",
-      "RLY_1"
-    ],
-    [
-      "e921c67e-1f54-49f9-948a-392c3f838f50",
-      "RLY_2"
+      "Modulo RLY"
     ],
     [
       "136b9b44-cc5a-432c-9b51-691f6681cde1",
@@ -672,6 +668,30 @@
     [
       "28bf69dc-6cce-4967-b83e-8cad961af92b",
       "OUTPUT_PNP"
+    ],
+    [
+      "a09c737a-1ea7-4890-979b-86d4e0c24cb1",
+      "MODULO_0-10V_IN"
+    ],
+    [
+      "3ad01d14-589b-4e5d-b1e8-75dc74a3efd8",
+      "MODULO_ 0-32V_IN"
+    ],
+    [
+      "9ee870c0-81fe-45f7-ac22-63286cade1cd",
+      "Modulo A_420_IN"
+    ],
+    [
+      "605d01c8-e860-4a0a-b3bf-f01d812c825b",
+      "MODULO_D_IN"
+    ],
+    [
+      "1d3515f8-6e11-4e2e-871d-0d3a02a9683b",
+      "MODULO_AOUT_0-10"
+    ],
+    [
+      "ee69f2f4-effb-496e-9f42-cc8ea6f4e608",
+      "MODULO_AOUT_420"
     ]
   ],
   "text_variables": {}

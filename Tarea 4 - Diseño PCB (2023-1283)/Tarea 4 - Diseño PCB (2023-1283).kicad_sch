@@ -1563,6 +1563,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 121.92) (xy 151.13 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504cb422-5677-49e9-81a6-54df420dd153")
+	)
+	(wire
+		(pts
 			(xy 153.67 40.64) (xy 153.67 38.1)
 		)
 		(stroke
@@ -1623,16 +1633,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 116.84) (xy 151.13 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73675306-ce6c-4d04-a32c-e09286ae0e83")
-	)
-	(wire
-		(pts
 			(xy 147.32 95.25) (xy 151.13 95.25)
 		)
 		(stroke
@@ -1660,6 +1660,16 @@
 			(type default)
 		)
 		(uuid "8e86584c-7ffe-49c5-935c-08f47d40cece")
+	)
+	(wire
+		(pts
+			(xy 147.32 119.38) (xy 151.13 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90950309-5780-4c94-9959-0ed38d6a527a")
 	)
 	(wire
 		(pts
@@ -1720,6 +1730,16 @@
 			(type default)
 		)
 		(uuid "d44b9177-5053-4af6-a3c3-ee91aa22ff3f")
+	)
+	(wire
+		(pts
+			(xy 147.32 116.84) (xy 151.13 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0825a03-8b0e-4dfe-8d30-0157dcbdf69c")
 	)
 	(wire
 		(pts
@@ -1852,85 +1872,6 @@
 			(project "Tarea 4 - Diseño PCB (2023-1283)"
 				(path "/3d4c9906-62fa-4318-947c-2f24ee4f5070"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_2_P5.00mm")
-		(at 143.51 115.57 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19991764-8fd2-4a9b-8356-da751fe75301")
-		(property "Reference" "J4"
-			(at 142.875 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_2_P5.00mm"
-			(at 139.7 114.3001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 142.24 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 143.51 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6d80ce8-3ee3-4bb8-bd4a-452f0fdd9073")
-		)
-		(pin "2"
-			(uuid "2fe3ffc7-858f-4c27-b18c-8c0f6734a6b1")
-		)
-		(instances
-			(project "Tarea 4 - Diseño PCB (2023-1283)"
-				(path "/3d4c9906-62fa-4318-947c-2f24ee4f5070"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2095,6 +2036,92 @@
 			(project "Tarea 4 - Diseño PCB (2023-1283)"
 				(path "/3d4c9906-62fa-4318-947c-2f24ee4f5070"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_4_P5.00mm")
+		(at 143.51 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2049c9b8-5633-4bab-a24c-cf58a0ca78df")
+		(property "Reference" "J5"
+			(at 139.7 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_4_P5.00mm"
+			(at 139.7 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Horizontal"
+			(at 143.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 143.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00881a08-9389-4a29-b384-2e64561e572b")
+		)
+		(pin "2"
+			(uuid "f80b77f0-cc55-4ec2-958c-bd64063c6ec0")
+		)
+		(pin "3"
+			(uuid "f08e89cf-5f0f-4be8-956c-5b7daf03c0bd")
+		)
+		(pin "4"
+			(uuid "a7413383-b553-4597-889d-131c63c5cafb")
+		)
+		(instances
+			(project "Tarea 4 - Diseño PCB (2023-1283)"
+				(path "/3d4c9906-62fa-4318-947c-2f24ee4f5070"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3172,7 +3199,7 @@
 				(justify right)
 			)
 		)
-		(pin "D_IN_1" input
+		(pin "D_IN_1_+" input
 			(at 151.13 114.3 180)
 			(uuid "a453c0d4-346c-4a32-933e-203e99d621bb")
 			(effects
@@ -3182,8 +3209,8 @@
 				(justify left)
 			)
 		)
-		(pin "D_IN_2" input
-			(at 151.13 116.84 180)
+		(pin "D_IN_2_-" input
+			(at 151.13 121.92 180)
 			(uuid "e92b4472-4116-4479-9c59-a1cdb2a17b8f")
 			(effects
 				(font
@@ -3360,6 +3387,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "D_IN_1_-" input
+			(at 151.13 116.84 180)
+			(uuid "c27ba7a6-9f3c-4e7b-9c81-3c8acef56e61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D_IN_2_+" input
+			(at 151.13 119.38 180)
+			(uuid "5f140654-713c-4217-b910-3144b372a27b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
