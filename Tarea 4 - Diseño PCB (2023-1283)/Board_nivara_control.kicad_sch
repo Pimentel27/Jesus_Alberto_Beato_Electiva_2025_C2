@@ -1619,6 +1619,12 @@
 		(uuid "29a85d88-e714-43b1-a568-227ec8fc906f")
 	)
 	(junction
+		(at 270.51 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "455f0b99-5aa1-408a-ac7c-ae23ffe1c7a7")
+	)
+	(junction
 		(at 281.94 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1629,6 +1635,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7826639f-8657-48d5-bbc0-70e64269cc0e")
+	)
+	(junction
+		(at 278.13 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79212173-eea6-425d-a6f7-05e841114b6b")
+	)
+	(junction
+		(at 274.32 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3295361-614e-4ec5-b299-848aa59677fe")
 	)
 	(junction
 		(at 161.29 109.22)
@@ -1718,6 +1736,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 187.96) (xy 278.13 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb41f99-d14c-4c37-bbb6-ff3624ef27fb")
+	)
+	(wire
+		(pts
 			(xy 262.89 29.21) (xy 267.97 29.21)
 		)
 		(stroke
@@ -1788,6 +1816,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 190.5) (xy 270.51 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241508d6-bdaa-4cd2-be23-2ac70d1ebf22")
+	)
+	(wire
+		(pts
 			(xy 261.62 52.07) (xy 261.62 63.5)
 		)
 		(stroke
@@ -1805,6 +1843,16 @@
 			(type default)
 		)
 		(uuid "27611a0f-a35c-4191-bb79-889e2f5f5e4c")
+	)
+	(wire
+		(pts
+			(xy 274.32 187.96) (xy 278.13 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283aaf8a-ace0-4c12-82bf-1292dcd2657b")
 	)
 	(wire
 		(pts
@@ -2008,13 +2056,33 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 203.2) (xy 283.21 203.2)
+			(xy 278.13 198.12) (xy 278.13 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c07dbc-4390-4481-96ba-19d04e0124ae")
+	)
+	(wire
+		(pts
+			(xy 267.97 203.2) (xy 270.51 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "59bad81f-afcd-4b4f-ae9d-10be770c69bb")
+	)
+	(wire
+		(pts
+			(xy 270.51 203.2) (xy 278.13 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8a3df6-fa9e-45f6-b811-c9d8960109c8")
 	)
 	(wire
 		(pts
@@ -2198,6 +2266,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 187.96) (xy 274.32 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90454dfd-4af4-4902-bcbb-1da7fdffe568")
+	)
+	(wire
+		(pts
 			(xy 256.54 60.96) (xy 287.02 60.96)
 		)
 		(stroke
@@ -2245,6 +2323,16 @@
 			(type default)
 		)
 		(uuid "a7a7d2fd-43c4-4b5f-bab8-80637fd92a28")
+	)
+	(wire
+		(pts
+			(xy 270.51 198.12) (xy 270.51 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe0ce00-93c3-4385-b286-7f33a606c24a")
 	)
 	(wire
 		(pts
@@ -2465,6 +2553,16 @@
 			(type default)
 		)
 		(uuid "dcb45162-3c4d-4f9a-a761-b308f5d876f9")
+	)
+	(wire
+		(pts
+			(xy 278.13 203.2) (xy 283.21 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cfc17c-1dc4-461c-b8ec-b88904599047")
 	)
 	(wire
 		(pts
@@ -2939,6 +3037,85 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 270.51 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05ea81d5-3028-46bb-ae8f-9f3cf82b06e8")
+		(property "Reference" "R32"
+			(at 272.034 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_0603"
+			(at 273.05 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 270.51 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1K"
+			(at 270.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 270.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "5k"
+			(at 272.034 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "bd205c66-46ce-4d8b-8f98-9b21e75ebc59")
+		)
+		(pin "1"
+			(uuid "37dbfa8e-30fc-4795-8b15-d6eb87235cc3")
+		)
+		(instances
+			(project "Tarea 4 - Diseño PCB (2023-1283)"
+				(path "/3d4c9906-62fa-4318-947c-2f24ee4f5070/7f1c18bf-1599-4179-bea6-bbd6c93b4956"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 53.34 0)
 		(unit 1)
@@ -2998,6 +3175,85 @@
 			(project ""
 				(path "/3d4c9906-62fa-4318-947c-2f24ee4f5070/7f1c18bf-1599-4179-bea6-bbd6c93b4956"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_0603")
+		(at 278.13 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c7e2e0e-e8ad-4fe0-bb02-cfba7b4f0169")
+		(property "Reference" "R33"
+			(at 279.654 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_0603"
+			(at 280.67 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+			(at 278.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "1K"
+			(at 278.13 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 Chip Resistor, US Symbol, Alternate KiCad Library"
+			(at 278.13 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "5k"
+			(at 279.654 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "e13882cf-0df0-4aee-9833-27c6bad1e9fb")
+		)
+		(pin "1"
+			(uuid "a179211a-74f5-4d41-8de9-5dc9efb67c52")
+		)
+		(instances
+			(project "Tarea 4 - Diseño PCB (2023-1283)"
+				(path "/3d4c9906-62fa-4318-947c-2f24ee4f5070/7f1c18bf-1599-4179-bea6-bbd6c93b4956"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3064,6 +3320,72 @@
 			(project ""
 				(path "/3d4c9906-62fa-4318-947c-2f24ee4f5070/7f1c18bf-1599-4179-bea6-bbd6c93b4956"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:+3.3V")
+		(at 274.32 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "996979a7-4b62-4bbd-81f3-8540c0cec752")
+		(property "Reference" "#PWR069"
+			(at 274.32 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 274.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "799ab013-335a-462f-8a41-97e4c31dcda5")
+		)
+		(instances
+			(project "Tarea 4 - Diseño PCB (2023-1283)"
+				(path "/3d4c9906-62fa-4318-947c-2f24ee4f5070/7f1c18bf-1599-4179-bea6-bbd6c93b4956"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
